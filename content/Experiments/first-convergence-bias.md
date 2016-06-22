@@ -1,9 +1,8 @@
----
 Title: First Convergence Bias
 Date: 2016-04-11
 Author: Silviu Pitis
 Status: published
----
+Summary: In this post, I offer the results of an experiment providing support for "first convergence bias", which includes the proposition that training a randomly initialized network via backpropagation may never converge to a global minimum, regardless of the intialization and number of trials.
 
 In my post [Skill vs Strategy]({filename}/Meditations/skill-vs-strategy.md) I made the following proposition:
 

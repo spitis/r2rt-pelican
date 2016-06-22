@@ -1,13 +1,10 @@
----
 Title: Representational Power of Deeper Layers
 Date: 2016-03-30
 Author: Silviu Pitis
 Status: published
----
+Summary: The hidden layers in a neural network can be seen as different representations of the input. Do deeper layers learn "better" representations? In a network trained to solve a classification problem, this would mean that deeper layers provide better features than earlier layers. The natural hypothesis is that this is indeed the case. In this post, I test this hypothesis on an network with three hidden layers trained to classify the MNIST dataset. It is shown that deeper layers do in fact produce better representations of the input.
 
 The hidden layers in a neural network can be seen as different representations of the input. Do deeper layers learn "better" representations? In a network trained to solve a classification problem, this would mean that deeper layers provide better features than earlier layers. The natural hypothesis is that this is indeed the case. In this post, I test this hypothesis on an network with three hidden layers trained to classify the MNIST dataset. It is shown that deeper layers do in fact produce better representations of the input.
-
-<!--more-->
 
 ### Model setup
 

@@ -5,3 +5,4 @@ __pycache__/
 *.pid
 publishconf.py
 fabfile.py
+*.ipynb_checkpoints/

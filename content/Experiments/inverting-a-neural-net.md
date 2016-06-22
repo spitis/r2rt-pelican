@@ -1,9 +1,8 @@
----
 Title: Inverting a Neural Net
 Date: 2016-04-05
 Author: Silviu Pitis
 Status: published
----
+Summary: In this experiment, I "invert" a simple two-layer MNIST model to visualize what the final hidden layer representations look like when projected back into the original sample space.
 
 In this experiment, I "invert" a simple two-layer MNIST model to visualize what the final hidden layer representations look like when projected back into the original sample space.
 

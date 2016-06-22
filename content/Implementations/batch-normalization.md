@@ -1,11 +1,10 @@
----
 Title: Implementing Batch Normalization in Tensorflow
 Date: 2016-03-29
 Author: Silviu Pitis
 Status: published
----
+Summary: Batch normalization is deep learning technique introduced in 2015 that enables the use of higher learning rates, acts as a regularizer and can speed up training by 14 times. In this post, I show how to implement batch normalization in Tensorflow.
 
-Batch normalization, as described in the March 2015 [paper](http://arxiv.org/pdf/1502.03167v3.pdf) (the BN2015 paper) by Sergey Ioffe and Christian Szegedy, is a simple and effective way to improve the performance of a neural network. In the BN2015 paper, Ioffe and Szegedy show that batch normalization enables the use of higher learning rates, acts as a regularizer and can speed up training by 14 times. In this post, I implement batch normalization in Tensorflow.
+Batch normalization, as described in the March 2015 [paper](http://arxiv.org/pdf/1502.03167v3.pdf) (the BN2015 paper) by Sergey Ioffe and Christian Szegedy, is a simple and effective way to improve the performance of a neural network. In the BN2015 paper, Ioffe and Szegedy show that batch normalization enables the use of higher learning rates, acts as a regularizer and can speed up training by 14 times. In this post, I show how to implement batch normalization in Tensorflow.
 
 ### The Problem
 
@@ -28,7 +27,6 @@ Adding in $\gamma$ and $\beta$ producing the following final batch normalizing t
 ### Implementing Batch Normalization in Tensorflow
 
 We will add batch normalization to a basic fully-connected neural network that has three hidden layers of 100 neurons each and show a similar result to Figure 1 (b) and (c) of the BN2015 paper.
-
 
 ```python
 import numpy as np

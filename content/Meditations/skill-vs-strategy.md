@@ -1,9 +1,8 @@
----
 Title: Skill vs Strategy
 Date: 2016-01-23
 Author: Silviu Pitis
 Status: published
----
+Summary: In this post I consider the distinction between skill and strategy and what it means for machine learning. Backpropagation is limited in that it develops a skill at a specific strategy, but cannot, by itself, change strategies. I look at how strategy switches are achieved in real examples and ask what algorithm might allow machines to effectively switch strategies.
 
 In this post I discuss several real life examples of strategies that cannot be achieved through mere practice of an inferior strategy. Backpropagation is an algorithm akin to such "mere practice" in that backpropagation develops skill at a specific strategy (i.e., it learns a specific local minimum). Like practice, backpropagation alone cannot result in a switch to a superior strategy. I look at how strategy switches are achieved in real examples and ask what algorithm might allow machines to effectively switch strategies.
 

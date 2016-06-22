@@ -26,10 +26,17 @@ AUTHOR_FEED_RSS = None
 
 #PLUGINS
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math']
+PLUGINS = ['pandoc_reader']
+
+PANDOC_ARGS = [
+  '--mathjax',
+  '--smart',
+  '-t', 'html5',
+  '-s'
+]
+
 
 STATIC_PATHS = ['static']
-
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
