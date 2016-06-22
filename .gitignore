@@ -1,0 +1,7 @@
+hakyll-old/
+pelican-plugins/
+output/
+__pycache__/
+*.pid
+publishconf.py
+fabfile.py
